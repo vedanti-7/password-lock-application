@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5">
+    <servlet>
+        <servlet-name>Home</servlet-name>
+        <jsp-file>/Home.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Home</servlet-name>
+        <url-pattern>/Home</url-pattern>
+    </servlet-mapping>
+
+     <servlet>
+        <servlet-name>pwdFacility</servlet-name>
+        <jsp-file>/pwdFacility.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>pwdFacility</servlet-name>
+        <url-pattern>/pwdfc</url-pattern>
+    </servlet-mapping>
+
+     <servlet>
+        <servlet-name>bank</servlet-name>
+        <jsp-file>/bank.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>bank</servlet-name>
+        <url-pattern>/bank</url-pattern>
+    </servlet-mapping>
+
+     <servlet>
+        <servlet-name>general</servlet-name>
+        <jsp-file>/general.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>general</servlet-name>
+        <url-pattern>/gen</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>bankStore</servlet-name>
+        <jsp-file>/bankStore.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>bankStore</servlet-name>
+        <url-pattern>/bkstr</url-pattern>
+    </servlet-mapping>
+    
+</web-app>
